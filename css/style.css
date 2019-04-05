@@ -156,9 +156,9 @@ li {
 }
 
 .btn-style-one:hover {
-  color: #48bdc5;
-  border: 1px solid #48bdc5;
-  background: #ffffff;
+  color: white;
+  border: 1px solid rgb(230, 93, 47);;
+  background: rgb(230, 93, 47);;
   transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -1726,6 +1726,22 @@ li {
   color: #fff;
 }
 
+#profs{
+  margin-top: 30px;
+  background: #fff;
+  text-transform: uppercase;
+  color: #48bdc5;
+  padding: 10px 25px;
+  border: 1px solid #48bdc5;
+  transition: all .2s ease-in;
+}
+
+#profs:hover{
+  background: rgb(230, 93, 47);
+  border: 1px solid rgb(230, 93, 47);
+  color: #fff;
+}
+
 .team-members .team-person {
   margin-top: 30px;
 }
@@ -2067,6 +2083,12 @@ li {
   position: relative;
   margin-bottom: 40px;
 }
+#buscanav {
+  position: relative;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-left: 15px
+}
 
 .right-side .text-title h6 {
   position: relative;
@@ -2101,7 +2123,17 @@ li {
   background: #ffffff;
   border: 1px solid #ececec;
 }
-
+#buscanav input {
+  height: 50px;
+  width: 300px;
+  padding: 10px 20px;
+  font-size: 15px;
+  line-height: 26px;
+  color: #777777;
+  font-weight: 400;
+  background: #ffffff;
+  border: 1px solid #ececec;
+}
 .right-side .search-box button {
   position: absolute;
   top: 12px;

@@ -6,7 +6,7 @@ window.marker = null;
 function initialize() {
     var map;
 
-    var nottingham = new google.maps.LatLng(51.507351, -0.127758);
+    var nottingham = new google.maps.LatLng(-5.8135166,-35.2035968);
 
     var style = [
         {
@@ -87,7 +87,7 @@ function initialize() {
         zoomControl:true,
         mapTypeControl:false,
         scaleControl:false,
-        streetViewControl:false,
+        streetViewControl:true,
         overviewMapControl:false,
         zoomControlOptions: {
             style:google.maps.ZoomControlStyle.LARGE
