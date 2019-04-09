@@ -807,8 +807,11 @@ li {
   font-size: 16px;
   line-height: 19px;
 }
-
+.kk{
+  color: black;
+}
 .map {
+  margin-top: 3em;
   position: relative;
 }
 
@@ -865,6 +868,59 @@ li {
 }
 
 .contact .address-block .media:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.address-block{
+  padding: 40px;
+}
+.address-block .media {
+  margin-top: 40px;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .address-block .media {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+  .address-block .media:last-child {
+    margin-bottom: 30px;
+  }
+}
+
+.address-block .media i {
+  margin-top: 40px;
+  color: #48bdc5;
+  font-size: 30px;
+  margin-right: 35px;
+  width: 40px;
+  display: block;
+}
+
+@media (max-width: 767px) {
+ .address-block .media i {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.address-block .media .media-body h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.address-block .media .media-body p {
+  line-height: 25px;
+}
+
+.address-block .media:not(:last-child) {
   margin-bottom: 20px;
 }
 
