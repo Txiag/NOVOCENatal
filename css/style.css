@@ -508,6 +508,7 @@ li {
   background-color: rgb(230, 93, 47);
 }
 
+
 .navbar .navbar-nav li.active a {
   background: transparent;
   color: #fff;
@@ -3674,5 +3675,23 @@ li {
 }
 #noticimore{
   text-align: center;
+}
+#inst :hover{
+  background-color: rgb(230, 93, 47);
+}
+#profes :hover{
+  background-color: rgb(232, 107, 66);
+}
+#galeria :hover{
+  background-color: rgb(234, 122, 85);
+}
+#kids :hover{
+  background-color: rgb(237, 137, 103);
+}
+#blog :hover{
+  background-color: rgb(239, 152, 122);
+}
+#contato :hover{
+  background-color: rgb(214, 154, 134);
 }
 /*# sourceMappingURL=maps/style.css.map */
