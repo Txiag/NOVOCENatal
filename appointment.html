@@ -186,7 +186,7 @@
                   <div class="section-title">
                       <h3><span>Mande uma</span> mensagem</h3>
                   </div>
-                  <form name="contact_form" class="default-form contact-form" action="appointment.html" method="post">
+                  <form name="contact_form" class="default-form contact-form">
                       <div class="row">
                           <div class="col-md-6 col-sm-12 col-xs-12">
                               <div class="form-group">
@@ -199,10 +199,11 @@
                           </div>
                           <div class="col-md-6 col-sm-12 col-xs-12">
                               <div class="form-group">
-                                  <input type="text" name="Phone" placeholder="Telefone" required="">
+                                  <input type="text" name="Phone" maxlength="11" placeholder="Telefone" required="">
                               </div>
                               <div class="form-group">
-                                  <select name="subject">
+                                  <select name="subject" required>
+                                      <option value="">Assunto</option>
                                       <option>Geral</option>
                                       <option>Matrícula</option>
                                       <option>Dúvida</option>
