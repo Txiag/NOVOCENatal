@@ -175,6 +175,7 @@ li {
   padding: 8px 36px;
   background: rgb(230, 93, 47);
   border: 1px solid rgb(230, 93, 47);
+  border-radius: 5px;
   display: inline-block;
   text-transform: uppercase;
   font-family: "Source Sans Pro", sans-serif;
@@ -188,6 +189,7 @@ li {
 #submit-b:hover{
   color: white;
   border: 1px solid #48bdc5;
+  border-radius: 5px;
   background: #48bdc5;
   transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
