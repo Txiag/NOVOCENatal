@@ -3734,4 +3734,9 @@ li {
 #contprof{
   color: rgb(230, 93, 47);
 }
+
+#plane:before {
+  font-size: 20px;
+  color: white;
+}
 /*# sourceMappingURL=maps/style.css.map */
