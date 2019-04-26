@@ -22,7 +22,17 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="icon.png" type="image/x-icon">
   <link rel="icon" href="icon.png" type="image/x-icon">
-
+    <style>
+    #sentmessage{
+        background-color: rgb(74, 207, 74);
+        
+        text-align: center;
+    }
+    #sentmessage p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    </style>
 </head>
 
 
@@ -33,7 +43,9 @@
     <!-- Preloader -->
 
   
-
+    <div id="sentmessage">
+        <p>Mensagem Enviada com Sucesso</p>
+    </div>
     <section class="header-uper">
       <div class="container clearfix">
             <div class="logo">
@@ -139,7 +151,8 @@
     </div>
 </section>
 <!--End Page Title-->
-<!--<section class="team-section section">
+<!--
+<section class="team-section section">
   <div class="container">
       <div class="section-title text-center">
           <h3>Coordenadores        </h3>
@@ -186,7 +199,7 @@
                   <div class="section-title">
                       <h3><span>Mande uma</span> mensagem</h3>
                   </div>
-                  <form name="contact_form" class="default-form contact-form" action="appointmentsent.html">
+                  <form name="contact_form" class="default-form contact-form">
 
                       <div class="row">
                           <div class="col-md-6 col-sm-12 col-xs-12">
@@ -200,7 +213,7 @@
                           </div>
                           <div class="col-md-6 col-sm-12 col-xs-12">
                               <div class="form-group">
-                                  <input type="tel" name="Phone" maxlength="11" placeholder="Telefone" required>
+                                  <input type="text" name="Phone" maxlength="11" placeholder="Telefone" required="">
                               </div>
                               <div class="form-group">
                                   <select name="subject" required>

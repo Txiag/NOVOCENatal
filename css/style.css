@@ -722,21 +722,27 @@ li {
 .hero-slider .slick-prev:before {
   content: '\f177';
   font-family: "FontAwesome";
+  font-size: 40px;
 }
 
 .hero-slider .slick-next {
-  right: 20px;
+  right: 40px;
   z-index: 100;
 }
 
 .hero-slider .slick-next:before {
   content: '\f178';
   font-family: "FontAwesome";
+  font-size: 40px;
+}
+#profspag{
+  margin-top: 5em;
 }
 
 .slick-dotted.slick-slider {
   margin-bottom: 0 !important;
 }
+
 
 .cta {
   padding: 40px 0;
@@ -3725,5 +3731,9 @@ li {
 }
 #contato :hover{
   background-color: rgb(214, 154, 134);
+}
+
+#contprof{
+  color: rgb(230, 93, 47);
 }
 /*# sourceMappingURL=maps/style.css.map */
