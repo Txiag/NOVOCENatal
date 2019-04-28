@@ -3745,4 +3745,25 @@ iframe {
   height: 25em;
 }
 
+li #rightnav #buscanav form {
+  display: flex;
+  flex-direction: row;
+}
+
+li #rightnav #buscanav form input {
+  flex-grow: 2;
+  border: none;
+}
+
+li #rightnav #buscanav form button {
+  border: 1px solid red;
+  background-image: url("../img/icons/icon_search.png") no-repeat;
+}
+
+li #rightnav #buscanav form button img {
+  /*background-image: url(img/icon_search.png) no-repeat;*/
+  /*width: 25px;
+  height: 25px;*/
+}
+
 /*# sourceMappingURL=maps/style.css.map */
