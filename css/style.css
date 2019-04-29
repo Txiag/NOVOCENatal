@@ -3756,8 +3756,15 @@ li #rightnav #buscanav form input {
 }
 
 li #rightnav #buscanav form button {
-  border: 1px solid red;
-  background-image: url("../img/icons/icon_search.png") no-repeat;
+  /*border: 1px solid red;*/
+  border: none;
+  /*background-image: url("icon_search.png") no-repeat;*/
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 li #rightnav #buscanav form button img {
