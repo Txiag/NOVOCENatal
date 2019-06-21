@@ -375,8 +375,8 @@ li {
 }
 
 .header-top .top-right .social-links li:hover i {
-  color: #7b64cb;
-  border-color: #7b64cb;
+  color: rgb(230, 93, 47);
+  border-color: rgb(230, 93, 47);
 }
 
 .header-uper {
@@ -725,6 +725,12 @@ li {
   font-size: 40px;
 }
 
+.hero-slider .slick-prev:hover:before {
+  content: '\f053';
+  font-family: "FontAwesome";
+  font-size: 50px;
+}
+
 .hero-slider .slick-next {
   right: 40px;
   z-index: 100;
@@ -734,6 +740,11 @@ li {
   content: '\f054';
   font-family: "FontAwesome";
   font-size: 40px;
+}
+.hero-slider .slick-next:hover:before {
+  content: '\f054';
+  font-family: "FontAwesome";
+  font-size: 50px;
 }
 #profspag{
   margin-top: 5em;
